@@ -720,39 +720,6 @@ header {
     }
   }
   
-.dark-mode .navbar {
-    background-color: #333;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
-}
-
-.dark-mode-toggle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #555;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.dark-mode-toggle:hover {
-    background-color: #777;
-    transform: scale(1.1);
-}
-
-.dark-mode .dark-mode-toggle {
-    background-color: #fff;
-    color: #333;
-}
-
-.dark-mode .dark-mode-toggle:hover {
-    background-color: #ccc;
-    transform: scale(1.1);
-}
-
 #Projects {
     display: grid;
     width: 100%;
@@ -799,6 +766,8 @@ header {
   
   .thumbnail-content .btn:hover {
     transform: scale(1.1);
+
+    
   }
   #Projects {
     display: grid;
