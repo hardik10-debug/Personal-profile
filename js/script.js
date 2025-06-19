@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // About Me Text Typing Effect
   function changeAboutMeText() {
-      const aboutMeTexts = ["an Engineering Student", "a Web Developer", "a Tech Enthusiast", "a Quick Learner", "a Coder", "a Team Player."];
+      const aboutMeTexts = ["an Engineering Student", "a Full Stack Web Developer", "a Tech Enthusiast", "a Quick Learner", "a Coder", "a Team Player."];
       const typingSpeed = 100; // milliseconds per char
       const eraseSpeed = 50; // milliseconds per char during erasing
       const pausetime = 1500; // milliseconds to pause each text change
