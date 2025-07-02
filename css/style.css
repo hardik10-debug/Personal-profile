@@ -512,6 +512,7 @@ header {
   }
   
   .skills-list li {
+    cursor: pointer;
     list-style-type: none;
     background: #cacad3;
     padding: 10px 15px;
